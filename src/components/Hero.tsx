@@ -11,12 +11,11 @@ export default function Hero() {
       </div>
       
       <div className="container relative mx-auto px-4">
-        <div className="items-center flex flex-wrap">
+        <div className="items-center flex flex-wrap" style={{marginBottom : "20%"}}>
           <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
             <div className="flex justify-center mb-8">
               <div className="relative animate-float">
                 <Brain className="h-20 w-20 text-emerald-500 animate-glow" />
-                <Sparkles className="absolute -top-2 -right-2 h-6 w-6 text-yellow-400" />
               </div>
             </div>
             
@@ -25,7 +24,6 @@ export default function Hero() {
               <br />
               COMPETITION 2024
               <div className="absolute -right-4 top-0">
-                <Sparkles className="h-6 w-6 text-yellow-400 animate-pulse" />
               </div>
             </h1>
 
@@ -41,7 +39,8 @@ export default function Hero() {
               An exciting AI Quiz competition for school and college students
             </p>
 
-            <a
+            <a 
+              style={{margin : "10%"}}
               href="https://forms.gle/CWwfvvC2X2sRU6eZA"
               target="_blank"
               rel="noopener noreferrer"
