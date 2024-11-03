@@ -11,8 +11,11 @@ export default function Navbar() {
           <div className="flex items-center">
             <div className="flex-shrink-0">
               <span className="text-white font-bold text-xl">
+
+                
+
                 <a href="#">
-                  <img
+                  <img style={{ width: '58%' }}
                     src="https://i.ibb.co/9s1NhpJ/Screenshot-2024-11-03-115253-removebg-preview.png"
                     alt="Screenshot-2024-11-03-115253-removebg-preview"
                   />
